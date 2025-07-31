@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavbarComponent() {
   return (
-    <Navbar expand="lg" bg="dark" variant="dark">
+    <Navbar  expand="lg" bg="dark" variant="dark">
       <Container fluid>
         <Navbar.Brand href="#">Tatlım Kafe</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
@@ -15,7 +15,7 @@ function NavbarComponent() {
             <Nav.Link href="#contact">İletişim</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+        </Container>
     </Navbar>
   );
 }
